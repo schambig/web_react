@@ -1,4 +1,4 @@
-button {
+/* button {
     text-align: right;
 }
 
@@ -11,4 +11,17 @@ button > span {
     background: url(../assets/holberton-logo.jpg);
     background-position: center;
     background-size: 200px 200px;
+} */
+
+#count {
+    float: right;
+    font-weight: bold;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    background: url('../assets/holberton-logo.jpg');
+    background-size: 200px 200px;
+    display: block;
 }

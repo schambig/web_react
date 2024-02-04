@@ -2,7 +2,7 @@ import '../css/main.css';
 import $ from 'jquery';
 import _ from 'lodash';
 
-let p0 = $('<div id="logo"></div>');
+let p0 = $('<img id="logo" src="../assets/holberton-logo.jpg"></img>');
 let p1 = $('<p>Holberton Dashboard</p>');
 let p2 = $('<p>Dashboard data for the students</p>');
 let p3 = $('<button>Click here to get started</button>');

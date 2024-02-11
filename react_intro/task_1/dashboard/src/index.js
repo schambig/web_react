@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { Notifications } from './Notifications';
 
 /* Create a root instance using `ReactDOM.createRoot()` then call `render()` on
 that root instance to render the `<App />` Component.
@@ -8,12 +9,15 @@ This method is part of React's concurrent mode API, introduced in React 18.
 It allows for more advanced features related to concurrent rendering and is intended
 for more complex applications where fine-grained control over rendering is necessary.
  */
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <div className="root-notifications">
+//       <Notifications />
+//     </div>
+//     <App />
+//   </React.StrictMode>
+// );
 
 /* 
 This is the traditional way of rendering a React application.
@@ -22,12 +26,15 @@ with the id of 'root'.
 The `<React.StrictMode>` component enables strict mode, which helps identify
 potential problems in your code during development.
  */
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
+ReactDOM.render(
+  <React.StrictMode>
+    <div className="root-notifications">
+      <Notifications />
+    </div>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
 /* 
 This directly renders the `<App />` component into the DOM element with the id of 'root'

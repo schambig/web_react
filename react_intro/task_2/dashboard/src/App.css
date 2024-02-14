@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
 }
 
 :root {
@@ -36,6 +36,8 @@
 }
 
 .form {
+  margin-top: 15px;
+  margin-left: -2px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -46,12 +48,12 @@
 .App-body label span {
   padding-left: 2px;
   font-weight: bold;
-  margin-right: 16px;
+  margin-right: 10px;
 }
 
 .App-body input {
   /* display: block; */
-  height: 32px;
+  height: 25px;
   line-height: 16px;
   font-size: 16px;
   padding-left: 2px;
@@ -61,7 +63,7 @@
 .App-body button {
   border-radius: 10px;
   width: 40px;
-  height: 30px;
+  height: 25px;
   background-color: white; /* #ff4242 */
   font-size: 15px;
   border: .5px solid lightgrey;

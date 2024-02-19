@@ -21,7 +21,8 @@ function Notifications () {
         }}>
         <img src={close_icon} style={{height: '20px', width: '20px'}} alt="Close"/>
       </button>          
-      <p><strong>Here is the list of notifications</strong></p>
+      {/* <p><strong>Here is the list of notifications</strong></p> */}
+      <p>Here is the list of notifications</p>
       <ul>
         <li data-priority="default">New course available</li>
         <li data-priority="urgent">New resume available</li>
